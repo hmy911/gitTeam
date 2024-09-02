@@ -1,0 +1,16 @@
+
+#建立環境使用anaconda prompt command
+conda create --name yolov8 python==3.10.6
+conda activate yolov8
+D:
+cd D:\yolo
+
+pip install ultralytics
+nvcc --version
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+
+
+
+
+
+
