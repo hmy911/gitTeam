@@ -5,7 +5,8 @@ from ultralytics import YOLO, solutions
 model = YOLO("trained/yolov8n-pose.pt")
 
 # cap = cv2.VideoCapture(0)  # Open the default camera (source=0)
-cap = cv2.VideoCapture("video/pushup3.mp4")
+cap = cv2.VideoCapture("video/pushup2.mp4")
+
 
 assert cap.isOpened(), "Error reading video file"
 
